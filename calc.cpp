@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 
@@ -25,7 +24,7 @@ int main() {
 
         polka=polka+perday;
         avgprice=avgprice-(perday*avgprice);
-        cout << loop << ": " << polka << " Price of Coins " << polka*coinprice << "Average: " << avgprice <<endl;
+        cout << loop << ": " << polka << " Price of Coins " << polka*coinprice << "Average: " << bookvalue/polka <<endl;
     }
     return 0;
 }
